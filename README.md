@@ -1,0 +1,2 @@
+# bindyNews
+vue js + laravel
