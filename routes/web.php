@@ -17,10 +17,25 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/menu', function () {
+    return view('menu');
+});
+
 Route::get('/accueil', function () {
     return view('accueil');
 });
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
+Route::get('/connexion', function () {
+    return view('connexion');
+});
+Route::get('/essai', function () {
+    return view('essai');
 });
