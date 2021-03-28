@@ -18,14 +18,7 @@
 }
 /*telephone*/
 @media only screen and (max-width: 576px) {
-    .recherche {
-        width: 60%;
-        margin-left: 0%;
-    }
-    .logo{
-        width: 10%;
-    }
-    
+ 
     .categorie {
         background-color: #151719;;
         position: fixed;
@@ -54,14 +47,6 @@
 
     }
 }
-
-.fixed {
-    position: fixed;
-    z-index: 10;
-}
-.menu {
-    width: 100%;
-}
 .qlqCategorie {
     width: 100%;
     height: 33px;
@@ -74,56 +59,6 @@
     background-color: rgb(27, 11, 116);
     overflow-y: scroll;
 }
-body{
-    font-size: 0.75em;
-}
-.footer {
-    background-color: rgb(26, 26, 53);
-    margin-bottom: -20%;
-}
-li {
-    list-style: none;
-}
-
-div form {
-    width: 70%;
-}
-
-div button {
-    width: 25%;
-}
-
-.navbar-nav {
-    width: 100%;
-    background-color: rgb(247, 164, 71);
-    z-index: 1;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-
-/*
-
-/*.navbar-nav li{
-    background-color: rgb(150, 243, 247);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}*/
-
-/*.dropdown-menu{
-    margin-top: 10000%;
-    margin-left: -100000%;
-    width: 100%;
-}
-*/
-
-
-
-
-
-
 
 .collapse {
     background-color: firebrick;
@@ -136,11 +71,6 @@ div button {
 .pub1{
     background-color: rgb(126, 236, 126);
 }
-
-.menuDuLogo{
-    background-color: rgb(248, 143, 24);
-}
-
 .affichage{
     background-color: rgb(245, 39, 142);
 }

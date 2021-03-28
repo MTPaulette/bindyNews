@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
     @yield('pagecss')
-    <title>accueil</title>
+    @yield('titre')
+    <!--title>accueil</title-->
 </head>
 <body>
     <div class="container-fluid" id="app">
         @yield('menu')
         @yield('contenu')
         @yield('pagejs')
+        @yield('footer')
     </div>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

@@ -1,4 +1,11 @@
 @extends('menu')
+@section('pagecss')
+    @parent
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/accueil.css') }}">
+@endsection
+@section('titre')
+    <title>accueil</title>
+@endsection
 @section('contenu')
     <div class="row">
         <div class="col qlqCategorie">
@@ -89,9 +96,5 @@
         <div class="col-sm-2 photoAlaUne">photoAlaUne</div>
         <div class="col-sm-2 photoAlaUne">photoAlaUne</div>
         <div class="col-sm-2 photoAlaUne">photoAlaUne</div>
-    </div>
-    <div class="row">
-        <div class="col footer"> <br></div>
-    </div>
     </div>
 @endsection

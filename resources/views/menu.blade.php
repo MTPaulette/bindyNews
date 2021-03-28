@@ -1,14 +1,17 @@
 @extends('index')
 @section('pagecss')
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/accueil.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/menu.css') }}">
+@endsection
+@section('titre')
+    <title>menu</title>
 @endsection
 @section('menu')
     <div class="row menu fixed">
         <nav class="col navbar navbar-light bg-light navbar-expand-lg">
             <!--div class="col-sm-1 logo"></div-->
-            <a href="#" class="col-sm-1 logo navbar-brand" style="background-color: blueviolet">logo</a>
+            <a href="#" class="col-sm-1 logo navbar-brand"  style="background-color: yellowgreen">logo</a>
             <!--recherche-->
-            <div class="col-sm-3 ml-auto input-group recherche" style="background-color: rgb(248, 245, 83)">
+            <div class="col-sm-3 ml-auto input-group recherche">
                 <form action="" class="form-outline">
                     <input type="search" id="search-focus" class="form-control" placeholder="search">
                 </form>
@@ -72,4 +75,9 @@
             </div>
         </nav> 
     </div>  
+@endsection
+@section('footer')
+    <div class="row">
+        <div class="col footer"> <span>footer</span></div>
+    </div>
 @endsection
