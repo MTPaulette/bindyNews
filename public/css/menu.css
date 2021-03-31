@@ -1,0 +1,83 @@
+/*.bi::before {
+    display: inline-block;
+    content: "";
+    vertical-align: -.125em;
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+/*laptop  lg */
+@media only screen and (min-width: 992px) { 
+    
+}
+/*tablette*/
+@media only screen and (max-width: 992px) and (min-width: 576px) {
+    
+}
+/*telephone*/
+@media only screen and (max-width: 576px) {
+    .recherche {
+        width: 60%;
+        margin-left: 0%;
+    }
+    .logo{
+        width: 10%;
+    }
+}
+
+.fixed {
+    position: fixed;
+    z-index: 10;
+}
+.menu {
+    width: 100%;
+}
+body{
+    font-size: 0.75em;
+}
+.container-fluid{
+    background-color: rgb(241, 137, 123);
+    height: 100%;
+}
+.footer {
+    background-color:rgb(26, 26, 53);
+    /*padding-top: 0px;*/
+    margin-bottom: -20%;
+}
+li {
+    list-style: none;
+}
+div form {
+    width: 70%;
+}
+
+div button {
+    width: 25%;
+}
+
+.navbar-nav {
+    width: 100%;
+    background-color: rgb(247, 164, 71);
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/*
+
+/*.navbar-nav li{
+    background-color: rgb(150, 243, 247);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}*/
+
+/*.dropdown-menu{
+    margin-top: 10000%;
+    margin-left: -100000%;
+    width: 100%;
+}
+*/
